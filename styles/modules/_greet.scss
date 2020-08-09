@@ -1,0 +1,37 @@
+.greet__container{
+  margin-top: 100px;
+  
+  .greet__wrapper{
+    background-color: rgb(255, 242, 254);
+    width: 90%;
+    padding: 20px;
+    margin:0 auto;
+    
+    .greet__img{
+      width: 90%;
+      margin:0 auto;
+      & > img {
+        width: 100%;
+      }
+    }
+         .greet__text{
+          width: 90%;
+          margin:0 auto;
+  
+          & .greet__title {
+            margin: 20px 0;
+            font-weight: 700;
+            font-size: 20px;
+          }
+
+          & .greet__main {
+
+            & > p {
+              font-weight: 600;
+              width: 100%;
+            }
+          }
+
+        }
+  }
+}

@@ -1,0 +1,58 @@
+$cBlack:black;
+$cGray:rgb(78, 78, 78);
+$cWhite:white;
+$cPurple:rgb(183, 59, 255);
+
+
+@import 'styles/modules/header';
+@import 'styles/modules/slider';
+@import 'styles/modules/youtube';
+@import 'styles/modules/greet';
+
+@media (min-width: 700px) {
+  @import 'styles/breakpoints/900';
+}
+
+
+
+.hbd{
+  & > img {
+  width: 100%;
+  margin-top: 100px;
+  }
+}
+
+.btn{
+  text-align: end;
+  margin:0 20px 20px 0;
+    &__top{
+      width: 120px;
+      height: 40px;
+      background-color: $cWhite;
+      border-radius: 6px;
+      cursor: pointer;
+      color: $cWhite;
+      outline: none;
+      
+    
+      & > a {
+        color: $cBlack;
+        font-weight: 800;
+        font-size: 17px;
+      }
+    
+    }
+    &__top:hover{
+      background-color: $cBlack;
+      color: $cBlack;
+      transition: all 1s;
+    
+       a {
+        color: $cWhite;
+       }
+    
+    }
+  
+}
+
+

@@ -1,0 +1,75 @@
+.slider__title{
+  font-size: 40px;
+}
+.header__container{
+  & .header__nav{
+    margin-right: 50px;
+
+    & > span {
+      height: 8px;
+      width: 48px;
+    }
+  }
+
+  .header__menu{
+    
+    transform: translateX(1000px);
+    
+
+    & .header__li{
+      font-size: 40px;
+      margin-left: 30px;
+    }
+  }
+
+  & .slide {
+    transform: translateX(-200px);
+  }
+}
+ 
+   .header .inview > span {
+  
+      &:nth-child(1){
+        transform: translateY(8px) rotate(157.5deg);
+      }
+      &:nth-child(2){
+        transform: translateX(10px);
+      }
+      &:nth-child(3){
+        transform: translateY(-8px) rotate(-157.5deg);
+
+      }
+    }
+
+    .greet {
+      &__container {
+        display: flex;
+        & .greet__wrapper{
+          width: 80%;
+          margin: 0 auto;
+          padding: 60px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          position: relative;
+
+          & .greet__text {
+            margin-left: 30px;
+            & .greet__title {
+              font-size: 35px;
+              border-bottom:2px solid black;
+            }
+          }
+              & .greet__main {
+                font-size: 28px;
+                margin:50px 0 20px 10px;
+              }
+        }
+      }
+    }
+
+  
+
+  .youtube__title{
+    font-size: 40px;
+  }
